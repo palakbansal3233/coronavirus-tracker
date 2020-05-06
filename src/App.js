@@ -26,7 +26,7 @@ class App extends React.Component {
                 <Cards data={data} />
                 <CountryPicker handleCountryChange={this.handleCountryChange}/>
                 <Chart data={data} country={country} />
-                <footer className="App-footer">
+                <footer className={styles.footer}>
                   &copy; 2020 Palak Bansal
                 </footer>
             </div>

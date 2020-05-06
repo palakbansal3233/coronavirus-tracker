@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(235, 233, 222);
+    background-color: aliceblue;
 }
 
 .container {
@@ -9,8 +9,8 @@ body {
     flex-direction: column;
 }
 
-.App-footer {
-    font-size: small;
+.footer {
+    font-size: medium;
     margin: 20px;
 }
 
